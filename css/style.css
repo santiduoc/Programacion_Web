@@ -2,13 +2,8 @@
  * INICIO CSS personalizados
  */
 
-.imagen-centrada-home{
-  text-align: center;
-  padding-top: 3%;
-}
-
 .fondo-titulo{
-	background-color: #059300;
+	background-color: #232928;
 	color: azure;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -17,7 +12,7 @@
 }
 
 .fondo-titulo-productos{
-	background-color: #059300;
+	background-color: #232928;
 	color: azure;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -25,7 +20,7 @@
 }
 
 .fondo-titulo-registro{
-	background-color: #059300;
+	background-color: #232928;
 	color: azure;
 	padding-top: 2%;
 	padding-bottom: 2%;
@@ -34,10 +29,15 @@
 
 
 .fondo-footer{
-	background-color: #005600;
+	background-color: #232928;
 	color: azure;
 	padding-top: 0.5%;
 }
+
+.fondo-barranav{
+  background-color: #153B5E;
+}
+
 
 /*!
  * INICIO registro
