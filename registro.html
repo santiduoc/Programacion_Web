@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TITULO DEL SITIO WEB -->
+    <title>Registro de Usuarios</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<!-- CSS -->
+	<link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+	<!--------------------------------------------------- NAV BAR --------------------------------------------->  
+  <nav class="navbar navbar-expand-lg fondo-barranav">
+    <div class="container">
+      <img src="images/Logo.png" width="10%"></img>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Registro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="donaciones.html">Donaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="despacho.html">Despacho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+		  <li class="nav-item">
+            <a class="nav-link" href="carrito.html">Carrito</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+	<!--------------------------------------------------- NAV BAR --------------------------------------------->  
+	
+	<div class="container; fondo-titulo-registro">
+    <h1 class="text-center">FORMULARIO DE REGISTRO</h1>
+  </div>
+    <div class="container">
+      <div class="row text-center">
+            <div class="col-md-1"></div>
+            <div class="col-md-10; form-registro">
+              <form class="form-horizontal" action="registro-realizado.html" method="post">
+                <input class="caja-texto" type="text" name="nombre" id="nombre" placeholder="Ingrese su Nombre">
+                <input class="caja-texto" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellidos">
+                <input class="caja-texto" type="text" name="rut" id="rut" placeholder="Ingrese su RUT">
+                <input class="caja-texto" type="date" name="fec_nac" id="fec_nac" placeholder="Ingrese su Fecha de Nacimiento">
+                <input class="caja-texto" type="tel" name="tel" id="tel" placeholder="Ingrese telefono contacto">
+                <input class="caja-texto" type="email" name="correo" id="correo" placeholder="Ingrese su Correo Electonico">
+                <input class="caja-texto" type="password" name="pass" id="pass" placeholder="Ingrese su Contraseña">
+                <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+                <input class="boton" type="submit" value="Registrar">
+              </form>
+            </div>
+            <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <br><br><br>
+  
+    <footer class="text-center">
+      <div class="container; fondo-footer">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright ©. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+
+    </footer>
+  </body>
+</html>
